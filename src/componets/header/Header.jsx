@@ -1,5 +1,5 @@
 import './Header.css'
-import logo from './assets/icons8-github 2.svg'
+import logo from '../../assets/icons8-github 2.svg'
 const Header = () => {
   return (
     

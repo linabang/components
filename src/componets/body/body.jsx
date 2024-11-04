@@ -4,10 +4,13 @@ const Body = () => {
   return (
     
     <main className="main">
-      <div className="container">
+      <div className="container main__wrapper">
         <h1 className="main__title">Lorem, ipsum dolor sit</h1>
         <p className="main__text1">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. EaВue,
+          Lorem, ipsum dolor sit amet consectetur
+        </p>
+        <p className="main__text1 main__text__dottom">
+           adipisicing elit. EaВue,
           veritatis ad.
         </p>
         <div className="main__input">
@@ -16,9 +19,18 @@ const Body = () => {
         </div>
         <p className="main__text2">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        </p>
+        <p className="main__text2">
           Eaque, veritatis ad. Ullam asperiores eligendi minima 
-          totam ratione sit molestias amet veritatis sed ut? 
+          totam 
+        </p>
+        <p className="main__text2">
+          ratione sit molestias amet veritatis sed ut? 
+        </p>
+        <p className="main__text2">
           Voluptatibus tempore sed voluptate perspiciatis, magnam 
+        </p>
+        <p className="main__text2 main__text__dottom">
           molestias.
         </p>
         <button className="main__btn">Сохранить</button>
